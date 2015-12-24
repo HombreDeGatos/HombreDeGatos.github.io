@@ -95,7 +95,6 @@ var idx = Math.floor(Math.random() * images.length);
 var image = images[idx];
 // I'm {age} years old!".supåplant({ age: 29 }));
 image_url = "url('/images/headers/" + image.url + "')";
-console.log(image.desc + ' - ' + image.date)
 $("header").css({'background-image':image_url});
 $("#desc").text(image.desc + ' - ' + image.date)
 
