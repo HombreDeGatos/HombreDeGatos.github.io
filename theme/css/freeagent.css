@@ -48,7 +48,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f111";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -195,7 +195,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    text-shadow: 0 0 25px rgba(0,0,0,0.8);
+    text-shadow: 0 0 15px rgba(0,0,0,0.8);
 }
 
 .navbar a:focus {
@@ -364,7 +364,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #ca5b10;
+    color: #2c3e50;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -488,4 +488,17 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.profpic {
+  /*clip-path: circle(100px at center);  */
+/*  position: absolute;
+  -webkit-clip-path: circle(100% at 50% 50%);
+  clip-path: circle(100% at 50% 50%);
+  clip: circle(245px, 140px, 50px); */
+  width: 250px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -951,12 +951,12 @@ textarea {
     line-height: inherit
 }
 a {
-    color: #ca5b10;
+    color: #95a5a6;
     text-decoration: none
 }
 a:focus,
 a:hover {
-    color: #ca5b10;
+    color: ##95a5a6;
     text-decoration: underline
 }
 a:focus {
@@ -1207,7 +1207,7 @@ a.text-danger:hover,
 a.text-info:hover,
 a.text-success:hover,
 a.text-warning:hover {
-    color: #e6e6e6
+    color: #2c3e50
 }
 .bg-primary {
     color: #fff;
@@ -2827,7 +2827,7 @@ fieldset[disabled] .btn-default:hover {
 .btn-primary:hover,
 .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #ca5b10;
+    background-color: ##95a5a6;
     border-color: #161f29
 }
 .btn-primary.disabled,
@@ -2854,8 +2854,8 @@ fieldset[disabled] .btn-primary:hover {
 }
 .btn-success {
     color: #fff;
-    background-color: #ca5b10;
-    border-color: #ca5b10
+    background-color: ##95a5a6;
+    border-color: ##95a5a6
 }
 .btn-success.active,
 .btn-success:active,
@@ -2886,11 +2886,11 @@ fieldset[disabled] .btn-success.active,
 fieldset[disabled] .btn-success:active,
 fieldset[disabled] .btn-success:focus,
 fieldset[disabled] .btn-success:hover {
-    background-color: #ca5b10;
-    border-color: #ca5b10
+    background-color: ##95a5a6;
+    border-color: ##95a5a6
 }
 .btn-success .badge {
-    color: #ca5b10;
+    color: ##95a5a6;
     background-color: #fff
 }
 .btn-info {
@@ -6052,11 +6052,11 @@ button.close {
 }
 .text-success,
 .text-success:hover {
-    color: #ca5b10
+    color: #2c3e50
 }
 .text-danger,
 .text-danger:hover {
-    color: #e74c3c
+    color: #2c3e50
 }
 .text-warning,
 .text-warning:hover {

@@ -22,11 +22,11 @@ $messagebodyhtml = "You have received a new message from your website contact fo
 $params = array(
     'api_user'  => $user,
     'api_key'   => $pass,
-    'to'        => 'you@yourdomain.com',
+    'to'        => 'jared.katzman@yale.edu',
     'subject'   => 'Someone sent a message from yourdomain.com',
     'html'      => $messagebodyhtml,
     'text'      => $messagebody,
-    'from'      => 'yourform@yourdomain.com',
+    'from'      => 'contactme@jaredleekatzman.com',
   );
 
 
