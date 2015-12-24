@@ -35,3 +35,74 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// Show a different image every time the Page Loads
+// @TODO include these in another file
+var images = [
+    {
+        'url': 'aquileia.jpg',
+        'desc': 'Basilica di Santa Maria Assunta, Aquileia, Italy',
+        'date': 'June 8, 2013'
+    },
+    {
+        'url': 'beinecke.jpg',
+        'desc': 'Beinecke Library, Yale University',
+        'date': 'March 24, 2013'
+    },
+    {
+        'url': 'castle.jpg',
+        'desc': 'Friuli-Venezia Giulia, Italy',
+        'date': 'June 20, 2013'
+    },
+    {
+        'url' : 'croatia.jpg',
+        'desc' : 'Novalja, Croatia',
+        'date': 'July 29, 2013'
+    },
+    {
+        'url': 'dolomites.jpg',
+        'desc': "Dolomiti, L'Italia",
+        'date': 'June 20, 2013'
+    },
+    {
+        'url': 'machu.jpg',
+        'desc': 'Machu Picchu, Peru',
+        'date': 'March 16, 2014'
+    },
+    {
+        'url': 'piran.jpg',
+        'desc': 'Piran, Slovenia',
+        'date': 'June 15, 2013'
+    },
+    {
+        'url': 'rainforest.jpg',
+        'desc': 'Peruvian Rainforest',
+        'date': 'March 18, 2013'
+    },
+    {
+        'url': 'sandyhook.jpg',
+        'desc': 'Sandy Hook, New Jersey',
+        'date': 'May 10, 2013'
+    },
+    {
+        'url': 'venice.jpg',
+        'desc': 'Venice, Italy',
+        'date': 'June 29, 2013'
+    }
+];
+
+var idx = Math.floor(Math.random() * images.length);
+var image = images[idx];
+// I'm {age} years old!".supåplant({ age: 29 }));
+image_url = "url('/images/headers/" + image.url + "')";
+console.log(image.desc + ' - ' + image.date)
+$("header").css({'background-image':image_url});
+$("#desc").text(image.desc + ' - ' + image.date)
+
+// $.getScript('./bg-images.js', function(data, textStatus, jqxhr) {
+//     console.log(data)
+//     console.log(data.image)
+//     console.log(image)
+// });
+
+// $("header").css({'background-image':'url('})
