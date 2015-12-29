@@ -4114,6 +4114,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-toggle {
   border-color: #ca5b10;
+  /*border-color: #ca5b10;*/
+  
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
