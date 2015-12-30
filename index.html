@@ -181,6 +181,28 @@
 	        	    </a>
 	        	</div>
 
+	        <div class="col-sm-4 portfolio-item">
+	        	    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+	        	        <div class="caption">
+	        	            <div class="caption-content">
+	        	                <i class="fa fa-search-plus fa-3x"></i>
+	        	            </div>
+	        	        </div>
+	        	        <img src="/images/portfolio/music.jpg" class="img-responsive" alt=""> <!-- /theme -->
+	        	    </a>
+	        	</div>
+
+	        <div class="col-sm-4 portfolio-item">
+	        	    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+	        	        <div class="caption">
+	        	            <div class="caption-content">
+	        	                <i class="fa fa-search-plus fa-3x"></i>
+	        	            </div>
+	        	        </div>
+	        	        <img src="/images/portfolio/transneeds.jpg" class="img-responsive" alt=""> <!-- /theme -->
+	        	    </a>
+	        	</div>
+
         </div>
     </div>
 </section>
@@ -336,25 +358,25 @@
 			                        <h2>Wordly</h2>
 			                        <hr class="star-primary">
 			                        <img src="/images/portfolio/wordly.png" class="img-responsive img-centered" alt=""><!-- /theme -->
-			                        <p><p>There has been one idea that I have not stopped thinking about. My roommates and family can attest that I have been discussing it ad nauseum for years. I never knew how to implement it. I did not know where to start. But today, I finally can say I am on the path to making my dream become a reality. I present: Wordly.</p>
-<p>Wordly is based on this idea of a <em>reverse dictionary</em>. I'll admit it. I have a lot of trouble conjuring up the best word to use in a sentence. Too many times I'm stuck with that 'tip of the tongue' feeling. I know my long, superfluously worded phrases have more succinct alternatives (Wordly should recommend me the word verbose), but looking for the perfect word is time-intesnive. A reverse dictionary would take a description I am thinking of and return words with related definitions. This would be an indespensible tool while writing essays, poetry, even these posts. </p>
-<p>When I thought of this idea, I immiedietly turned to Google. Search results pointed me first to <a href="https://en.wikipedia.org/wiki/Reverse_dictionary">Wikipedia</a>, as always, which showed me the term <a href="https://en.wikipedia.org/wiki/Conceptual_dictionary">conceptual dictionary</a>. So, according to Wikipedia, Wordly is an attempt at constructing a <em>conceptual</em> dictionary rather than a <em>reverse</em> dictionary. I learned this idea is not that new, but I noticed that there were only a few examples of conceptual/reverse dictionaries. Most of them are in-print. One, however, was fairly promising. </p>
-<p><a href="http://www.onelook.com/reverse-dictionary.shtml">OneLook.com</a> has cosntructed a reverse-dictionary from indexing over 100 different dictionaries. They say it works by using various "statistical language processing hacks." Overall, OneLook's performance is really good, but I want to see if I could do it better. </p>
+			                        <p><p>There has been one idea that I have not stopped thinking about for many years. My roommates and family will corroborate that I have been discussing it ad nauseum since freshman year. I never knew how to implement it. I did not know where to start. But today, I finally can say I am on the path to making my dream become a reality. I present: Wordly.</p>
+<p>Wordly is based on this idea of a <em>reverse dictionary</em>. I'll admit it. I have a lot of trouble conjuring up the best word to use in a sentence. Too many times I'm stuck with that 'tip of the tongue' feeling. I know my long, superfluously worded phrases have more succinct alternatives (Wordly should recommend me the word verbose), but looking for the perfect word is time-intensive. A reverse dictionary would take a description I am thinking of and return words with related definitions. This would be an indispensable tool while writing essays, poetry, and even these posts. </p>
+<p>When I thought of this idea, I immediately turned to Google. Search results pointed me first to <a href="https://en.wikipedia.org/wiki/Reverse_dictionary">Wikipedia</a>, as always, which showed me the term <a href="https://en.wikipedia.org/wiki/Conceptual_dictionary">conceptual dictionary</a>. So, according to Wikipedia, Wordly is an attempt at constructing a <em>conceptual</em> dictionary rather than a <em>reverse</em> dictionary. I learned this idea is not that new, but I noticed that there were only a few examples of conceptual/reverse dictionaries. Most of them are in-print. One, however, was fairly promising. </p>
+<p><a href="http://www.onelook.com/reverse-dictionary.shtml">OneLook.com</a> has constructed a reverse-dictionary from indexing over 100 different dictionaries. They say it works by using various "statistical language processing hacks." Overall, OneLook's performance is really good, but I want to see if I could do it better. </p>
 <p>I caught the bug and am obsessed with deep learning - captivated by the different research papers while constantly thinking of new applications. A friend recently showed me the power of <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">recurrent neural networks</a> (RNNs). RNNs are interesting because they are unlike the conventional neural networks I have worked with. First, they deal with sequences. This is crazy cool. These RNN can now incorporate a time-step into the equation. I can envision numerous RNN applications: everything from playing <a href="http://blog.otoro.net/2015/03/28/neural-slime-volleyball/">video-games</a> (a sequence of moves) to learning <a href="http://arxiv.org/abs/1502.04623">how to draw</a> (sequences of brush strokes). Second, RNN have an "internal memory." This is great for natural language processing (NLP) tasks. For humans to be able to read, we need to retain semantic information across sequences of words. To know that in the sentence, "In France, we spoke their native language," the word <em>language</em> refers to <em>French</em>, we need to remember we read the word <em>France</em>. </p>
-<p>Thinking about RNNs, I recalled another interesting NLP tool: vectorized word embeddings. I first learned about word embeddings after Google released their <a href="https://code.google.com/p/word2vec/">word2vec</a> framework. At a high-level, what this does is it reads huge amounts of text and computes mathematical representation of words. These 'words' now are clustered basted on how close in meaning they are. What I find most fascinating is how these mathematical representations can be used in very simple operations. Additional and subtraction can find analogies between words. The most common example is
+<p>Thinking about RNNs, I recalled another interesting NLP tool: vectorized word embeddings. I first learned about word embeddings after Google released their <a href="https://code.google.com/p/word2vec/">word2vec</a> framework. At a high-level, what this does is it reads huge amounts of text and computes mathematical representation of words. These 'words' now are clustered based on how close in meaning they are. What I find most fascinating is how these mathematical representations can be used in very simple operations. Addition and subtraction can find analogies between words. The most common example is
 </p>
 <div class="math">$$
 v(king) - v(man) + v(woman) \approx v(queen)
 $$</div>
 <p>
 Where <span class="math">\(v(word)\)</span> is the computed mathematical representation. This is one example of a possible computation on these word vectors. </p>
-<p>For someone who thinks naturally in numbers and math, this was revolutionary. I used this framework to explore how my brain acts as a reverse dictionary. Each thought is a query; my brain performs some computation and if I'm correct, the ouput is the word I was looking for. We (my teammate <a href="https://github.com/tfollo">Tim</a> and I) used this process as the basis of how Wordly works. </p>
-<p>First, we trasnsformed a vocabulary to a corresponding vector space. 
-Then, we trained a recurrent neural network on a set of dictionary definitions. We had the network predict a definition's corresponding entry. The objective was to minimze the euclidian distance between the predicted vector and the true dictionary entry. </p>
+<p>For someone who thinks naturally in numbers and math, this was revolutionary. I used this framework to explore how my brain acts as a reverse dictionary. Each thought is a query; my brain performs some computation and if I'm correct, the output is the word I was looking for. We (my teammate <a href="https://github.com/tfollo">Tim</a> and I) used this process as the basis of how Wordly works. </p>
+<p>First, we transformed a vocabulary to a corresponding vector space. 
+Then, we trained a recurrent neural network on a set of dictionary definitions. We had the network predict a definition's corresponding entry. The objective was to minimize the Euclidean distance between the predicted vector and the true dictionary entry. </p>
 <p><img alt="Wordly System Design" src="images/portfolio/wordly/wordly_diagram.png" /></p>
-<p>Figure 1. System design for Wordly. We took our set of dictionary defintiions and entries and embedded them into vector space. This produced a training set and their corresponding training labels. We used a portion of this dataset to train the RNN. After training the RNN, we took the weights and built a searchable UI on top of it. </p>
+<p>Figure 1. System design for Wordly. We took our set of dictionary definitions and entries and embedded them into vector space. This produced a training set and their corresponding training labels. We used a portion of this dataset to train the RNN. After training the RNN, we took the weights and built a searchable UI on top of it. </p>
 <p>We coded the backend system with the Keras Python module. My thesis work is coded all in Theano, so this was like a walk in the park. </p>
-<p>In the end, we were able to get a model that had an average Euclidian distance error of 2.063 on the test set. To visualize the performance I look at the words with the closest predictions:</p>
+<p>In the end, we were able to get a model that had an average Euclidean distance error of 2.063 on the test set. To visualize the performance I look at the words with the closest predictions:</p>
 <table>
 <thead>
 <tr>
@@ -416,7 +438,7 @@ Then, we trained a recurrent neural network on a set of dictionary definitions. 
 </tr>
 </tbody>
 </table>
-<p>This is a list of words with very specific defintions. However, many of these words have multiple definitions. For example cardamom has two definitions in our test set: "rhizomatous herb of India having aromatic seeds used as seasoning" and "aromatic seeds used as seasoning like cinnamon and cloves especially in pickles and barbecue sauces."
+<p>This is a list of words with very specific definitions. However, many of these words have multiple definitions. For example cardamom has two definitions in our test set: "rhizomatous herb of India having aromatic seeds used as seasoning" and "aromatic seeds used as seasoning like cinnamon and cloves especially in pickles and barbecue sauces."
 Wordly is able to understand the first definition and predicts cardamom as the first predicted word. But Wordly's confidence dwindles for the second definition and chili replaces cardamon as the closest word. </p>
 <p>Vector embeddings of two words are close if they are semantically similar. We hypothesize that the fact that Wordly learns very specific words is that their these word embeddings are distributed farther apart from more commonly used words. Therefore, it is easier for the RNN to learn weights that predict vectors substantially different from majority of the other words in the training set. If this hypothesis is true, we would expect that the model performs the worst on the most common words. Below is a sampling of the three words that Wordly performed the worst on:</p>
 <p><center></p>
@@ -448,12 +470,13 @@ Wordly is able to understand the first definition and predicts cardamom as the f
 </table>
 <p></center></p>
 <p>It logical that Wordly would have trouble learning the definitions for words humans even have difficulty defining.</p>
-<p>On cursory glance, I would say that Wordly has mediocre performance. Unfortunately, an average euclidian distance error of ~2.06 is not fairly impressive. Most word embeddings have a nearest neighbor in the range of ~1.3 units. Thus, if we are predicting with an error radius of 2.06 it will be difficult to have the correct word be the first choice (or even in the top 10).  </p>
+<p>On cursory glance, I would say that Wordly has mediocre performance. Unfortunately, an average Euclidean distance error of ~2.06 is not fairly impressive. Most word embeddings have a nearest neighbor in the range of ~1.3 units. Thus, if we are predicting with an error radius of 2.06 it will be difficult to have the correct word be the first choice (or even in the top 10).  </p>
 <p>However, all in all I would say I am proud of this first iteration. First off, we faced a couple of limitations. We had about a week to design and implement this system and a half a week of training the system (we trained on the Yale High Performance Computing Cluster). Training could take anywhere from 5 to 30 minutes per epoch; therefore, we only were able to try out a few different models. Second, there is a lot of room for improvement. </p>
-<p>For the sake of time and computational resources, we outsourced our word embeddings to <a href="http://www.aclweb.org/anthology/W13-3520">Polyglot</a>. A friend recommended Polyglot to us because it provided easy to use word embeddings in a simple pickle file. The set embeded 100,000 vocabulary words into 64 dimensions.  Reflecting back, I would have liked to use a more substantial set. In future experiments, I plan to use Google's Word2Vec embeddings (3 million words into 300 dimensions) or a comparable dataset.  </p>
+<p>For the sake of time and computational resources, we outsourced our word embeddings to <a href="http://www.aclweb.org/anthology/W13-3520">Polyglot</a>. A friend recommended Polyglot to us because it provided easy to use word embeddings in a simple pickle file. The set embedded 100,000 vocabulary words into 64 dimensions.  Reflecting back, I would have liked to use a more substantial set. In future experiments, I plan to use Google's Word2Vec embeddings (3 million words into 300 dimensions) or a comparable dataset.  </p>
 <p>Another disadvantage of Polyglot's dataset was their vocabulary list. Many words were proper nouns, poorly processed (e.g. words contained punctuation), or absent. This made it difficult to cross reference with our dictionaries. Compared to OneLook.com hundreds of dictionaries, we were only using three. In total, we had about 300,000 training examples and 100,000 testing examples. I would like to run experiments to see how the amount of data affects the model's performance. And I would like to increase the size of our dataset because I believe more linguistic diversity will help the model better generalize for user input. </p>
 <p>Lastly, there are so many more RNN models to try. We did not get to explore nearly as many types of models as we had hoped to. I am very new to the ideas of RNNs and NLP and so I do not have as strong of an intuition. I would love to get my hands dirtier with more research. I've always wanted to try genetic algorithms, so maybe this will be my <a href="http://www.sciencedirect.com/science/article/pii/S0888613X99000328">chance</a>. </p>
-<p>In conclusion, while I wish the system performed better, this is an unfortunate reality of research. Iteration is necessary for success. For a quick, first experiment however, I am estatic over the promise of this project. It is truly an incredible feeling to be able to take an idea you have cared for over the years and finally see it through fruition. And at the end of the day, that feeling mixed with the sincere joy of execution is what's important.</p>
+<p>In conclusion, while I wish the system performed better, this is an unfortunate reality of research. Iteration is necessary for success. For a quick, first experiment however, I am ecstatic over the promise of this project. It is truly an incredible feeling to be able to take an idea you have cared for over the years and finally see it through fruition. And at the end of the day, that feeling mixed with the sincere joy of execution is what's important.</p>
+<p><strong>Update:</strong> Googling around more, it looks like Yoshua Bengio released a <a href="http://arxiv.org/pdf/1504.00548.pdf">project very similar</a> (August 2015). This is sort of hilarious how similar some of the methods are (down to the same dictionaries as training data). Looks like my next project is going to be implementing his research.  </p>
 <hr />
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
@@ -513,7 +536,7 @@ Wordly is able to understand the first definition and predicts cardamom as the f
 }
 </script></p>
 			                        <ul class="list-inline item-details">
-			                            <li>Link:
+                                        <li>Link:
 			                                <strong><a href="http://54.152.167.250/Wordly">http://54.152.167.250/Wordly</a>
 			                                </strong>
 			                            </li>
@@ -521,8 +544,176 @@ Wordly is able to understand the first definition and predicts cardamom as the f
 			                                <strong>2015-12-28 00:00:00-05:00
 			                                </strong>
 			                            </li>
-			                            <li>GitHub:
-			                                <strong><a href="http://github.com/HombreDegatos/Wordly">http://github.com/HombreDegatos/Wordly</a>
+    			                            <li>GitHub:
+    			                                <strong><a href="http://github.com/HombreDegatos/Wordly">http://github.com/HombreDegatos/Wordly</a>
+    			                                </strong>
+    			                            </li>
+			                        </ul>
+			                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+			                    </div>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+			<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+			    <div class="modal-content">
+			        <div class="close-modal" data-dismiss="modal">
+			            <div class="lr">
+			                <div class="rl">
+			                </div>
+			            </div>
+			        </div>
+			        <div class="container">
+			            <div class="row">
+			                <div class="col-lg-8 col-lg-offset-2">
+			                    <div class="modal-body">
+			                        <h2>Exploration of Popular Music in Spotify’s 'Gay' Community</h2>
+			                        <hr class="star-primary">
+			                        <img src="/images/portfolio/music.jpg" class="img-responsive img-centered" alt=""><!-- /theme -->
+			                        <p><p>The first assignment for my history course 'United States Lesbian &amp; Gay History' with George Chauncey asked us to:</p>
+<p><center>
+"Write a mini-ethnography about 3-5 songs that you think have a distinctive appeal to L,G,B,T, or Q people."
+</center></p>
+<p>When I first read this assignment, my inner data-nerd jumped at the question. Spotify has seventy million users worldwide and almost every friend or acquaintance of mine has either directly used it or at least knows of the service. How could I use Spotify to help answer this question?</p>
+<p>There was no way I would be able to easily ascertain the sexuality or gender identity of Spotify users. So some type of survey of individual basis was out of the question. However, one of the greatest features of Spotify are the public playlists. These playlists have different keywords and titles to help users find them. If there were a substantial number of playlists marked with LGBT or Q keywords, I could take the list of songs as a metric for association with the current LGBTQ consciousness (even if <em>gay</em> is used pejoratively - it is an association).</p>
+<p>I have used the Spotify API before and each time it is a huge headache. Luckily, I found a Python project that provides an easy to use interface: <a href="http://spotipy.readthedocs.org/en/latest/#">Spotipy</a>. </p>
+<p>I searched Spotify playlists for four different keywords: gay, lesbian, bisexual, and transgender. Unfortunately, only the keyword gay provided enough results (161,403 songs in 604 playlists). Lesbian came second with 7,198 songs in 52 playlists. Thus, I narrowed down my research to only 'gay' playlists. </p>
+<p>Here were the results for the top 5 most popular song on playlists with the keyword 'gay': </p>
+<p><center> </p>
+<table>
+<thead>
+<tr>
+<th>Song</th>
+<th>Artist</th>
+<th>Count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Where Are Ü Now</td>
+<td>Jack Ü &amp;  Justin Bieber</td>
+<td>127</td>
+</tr>
+<tr>
+<td>See You Again</td>
+<td>Wiz Khalifa &amp; Charlie Pluth</td>
+<td>109</td>
+</tr>
+<tr>
+<td>Trap Queen</td>
+<td>Fetty Wap</td>
+<td>102</td>
+</tr>
+<tr>
+<td>Thinking Out Loud</td>
+<td>Ed Sheeran</td>
+<td>94</td>
+</tr>
+<tr>
+<td>Stole the Show</td>
+<td>Kygo</td>
+<td>87</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<p>When I first saw these results, I was a little confused because while all of these songs are incredibly trendy and popular, none of them stood out to me as stereotypical gay anthems. </p>
+<p>But then I thought about it more and it made sense. Queer communities have become the centers for nightlife in many metropolitan areas because of their hip and culturally relevant reputations. For example on any weekend night in Capitol Hill, the historic gay district of Seattle, you will find an influx of young, college-aged (assumingly straight) bar-goers flooding the establishments either owned or frequented by the gay community. Thus, I believe the prevalence of such songs in my results could be interpreted in two ways: as the gay community’s ability to discover popular songs before they get big or the assimilation of music tastes in the queer community. </p>
+<p>For the first case, gay-clubs could have found these songs first and were able to draw the heterosexual masses to patronage because of the captivating nature of the clubs’ music choice. 
+However, with my limited data, the implications could very be the opposite. The gentrification of these gay spaces is a current trend in urban areas. Gay communities could be adopting the musical tastes of the hegemony as a result of assimilation. </p>
+<p>Either way, I wanted to dive deeper to see if I could still find a list of distinctly gay songs. I played around with different algorithms that tried to utilize a Spotify song's <a href="https://developer.spotify.com/web-api/object-model/#track-object-full">popularity index</a>, but I didn't like anything I came up with. Then I realized - if the top songs are all songs on the Top 100, why don't I simply filter out the Top 100? </p>
+<p>This resulted in the Top 5 occuring songs:</p>
+<p><center> </p>
+<table>
+<thead>
+<tr>
+<th>Song</th>
+<th>Artist</th>
+<th>Count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stole the Show</td>
+<td>Kygo</td>
+<td>87</td>
+</tr>
+<tr>
+<td>Firestone</td>
+<td>Kygo</td>
+<td>84</td>
+</tr>
+<tr>
+<td>Chandelier</td>
+<td>Sia</td>
+<td>79</td>
+</tr>
+<tr>
+<td>Wannabe</td>
+<td>Spicegirls</td>
+<td>72</td>
+</tr>
+<tr>
+<td>Believe</td>
+<td>Cher</td>
+<td>67</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<p>This is more of a list that I would expect to see. Cher and Spice Girls have long been gay icons. Chandelier was a common gay anthem in Tel Aviv circa Summer 2014. Kygo stumped me at first, but I can easily see Stole the Show's <a href="https://www.youtube.com/watch?v=BgfcToAjfdc">music video</a> interpreted as a metaphor for gay experience (SPOILER: the military intervention once the aliens find each other can be a metaphor for America's policing on homosexuals, who are commonly seen as alien to society). Now I cannot stop listening to Stole the Show. </p>
+<p>If I were to extend and improve this research, I would extract temporal data about the songs and playlists. I could cross-reference this with a Top 100 Billboards dataset. Then I would have more insight on who first found a song popular: the queer community or pop culture. </p>
+<p>I have released my datasets and iPython notebook code on my GitHub account. </p></p>
+			                        <ul class="list-inline item-details">
+			                            <li>Date:
+			                                <strong>2015-09-12 00:00:00-05:00
+			                                </strong>
+			                            </li>
+    			                            <li>GitHub:
+    			                                <strong><a href="https://github.com/HombreDeGatos/Spotify-Gay-Anthems">https://github.com/HombreDeGatos/Spotify-Gay-Anthems</a>
+    			                                </strong>
+    			                            </li>
+			                        </ul>
+			                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+			                    </div>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+			<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+			    <div class="modal-content">
+			        <div class="close-modal" data-dismiss="modal">
+			            <div class="lr">
+			                <div class="rl">
+			                </div>
+			            </div>
+			        </div>
+			        <div class="container">
+			            <div class="row">
+			                <div class="col-lg-8 col-lg-offset-2">
+			                    <div class="modal-body">
+			                        <h2>#transneeds</h2>
+			                        <hr class="star-primary">
+			                        <img src="/images/portfolio/transneeds.jpg" class="img-responsive img-centered" alt=""><!-- /theme -->
+			                        <p><p>At Amazon this past summer. I received an email asking for nominations to the White House LGBTQ Tech &amp; Innovation Summit. On a pure whim, I decided to nominate myself. All I remember them asking for was my name and how I identified myself. I was just an intern - I had no chance, but there was nothing to lose by applying. Well to my utmost suprise, I received an email a few weeks later that led to one of the most greatest opportunities of my life. </p>
+<p><img alt="WH-LGBTQ Tech Summit" src="images/portfolio/whitehouse/group.jpg" /></p>
+<p>The White House LGBTQ Tech &amp; Innovation Summit brought together the most diverse group of technologist and activist to try and solve national problems in criminal justice, eceonmic inclusion, education, and climate change (to name a few). I do not remember being in a room with that much energy and passion. It was inspiring; I would even say life-changing. </p>
+<p>One of the takeaways from the summit was the opportunity to join a team and work on a project that put into action the ideas generated from that day. I luckily had the chance to join what was to become #transneeds. </p>
+<p>I think our <a href="https://goo.gl/9gnNuH">presentation</a> Ina gave for the <a href="https://youtu.be/cUHWS1OVfpw?t=1560">We The Geek's Demo Day</a> is the best description of everything we were able to accomplish. </p>
+<p>I learned so much from being a part of this project. But that is mostly due to having such an amazing team. </p>
+<p><strong>First, working remotely is a challenge.</strong> To produce results when team members are across the country takes a lot of organization and commitment. Missing a meeting is not the end of the world, but I found that catch up is much more difficult over the internet than in person.</p>
+<p><strong>A good survey needs to account for people who cannot take the survey.</strong> At first, I thought the social media campaign through Twitter and Facebook was perfect (I'm a Millenial what can I say). But as we discussed it more and more, I realized how social media accounts are becoming less anonymous unless they are throwaway accounts. This is a huge barrier for someone who cannot go public with their identity. Not to mention the 19% of respondants to the <a href="http://www.transequality.org/issues/resources/national-transgender-discrimination-survey-executive-summary">NCTE National Survey</a> who have experienced homelessness at some point in their lives. So social media was insufficient. A texting-hotline provided depth to the survey I do not think social media could ever provide. The stories we received were both heart-breaking and inspiring. While more data could never hurt, I think we did a pretty solid job for a three month sprint. </p>
+<p>Overall, it was an honor working with the #transneeds team. And I'm excited to see what will come of it. </p>
+<hr /></p>
+			                        <ul class="list-inline item-details">
+                                        <li>Link:
+			                                <strong><a href="https://twitter.com/transneeds">https://twitter.com/transneeds</a>
+			                                </strong>
+			                            </li>
+			                            <li>Date:
+			                                <strong>2015-08-04 00:00:00-05:00
 			                                </strong>
 			                            </li>
 			                        </ul>

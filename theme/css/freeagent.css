@@ -161,7 +161,7 @@ header .intro-text .skills {
     height: 50px;
     width: 400px;
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     left: 25px;
     display: inline-block;
     font-size: 90%;
@@ -504,12 +504,12 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+
 .profpic {
-  /*clip-path: circle(100px at center);  */
-/*  position: absolute;
-  -webkit-clip-path: circle(100% at 50% 50%);
-  clip-path: circle(100% at 50% 50%);
-  clip: circle(245px, 140px, 50px); */
   width: 250px;
   height: auto;
   display: block;
