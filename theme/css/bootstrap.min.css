@@ -4554,8 +4554,8 @@ a.thumbnail:hover {
     left: 0
 }
 .alert-success {
-    background-color: #ca5b10;
-    border-color: #ca5b10;
+    background-color: #000;
+    border-color: #000;
     color: #fff
 }
 .alert-success hr {
