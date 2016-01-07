@@ -4,6 +4,15 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+// jQuery for loading a random image on each visit
+var idx = Math.floor(Math.random() * images.length);
+var image = images[idx];
+// I'm {age} years old!".supåplant({ age: 29 }));
+image_url = "url('/images/headers/" + image.url + "')";
+$("header").css({'background-image':image_url});
+$("#desc").text(image.desc + ' - ' + image.date)
+
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
@@ -90,13 +99,6 @@ var images = [
         'date': 'June 29, 2013'
     }
 ];
-
-var idx = Math.floor(Math.random() * images.length);
-var image = images[idx];
-// I'm {age} years old!".supåplant({ age: 29 }));
-image_url = "url('/images/headers/" + image.url + "')";
-$("header").css({'background-image':image_url});
-$("#desc").text(image.desc + ' - ' + image.date)
 
 // $.getScript('./bg-images.js', function(data, textStatus, jqxhr) {
 //     console.log(data)
