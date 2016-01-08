@@ -464,6 +464,10 @@ footer .footer-below {
     margin-bottom: 30px;
 }
 
+.portfolio-modal .modal-content a {
+    target: ;
+}
+
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
     text-align: center;

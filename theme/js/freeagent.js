@@ -99,11 +99,3 @@ var images = [
         'date': 'June 29, 2013'
     }
 ];
-
-// $.getScript('./bg-images.js', function(data, textStatus, jqxhr) {
-//     console.log(data)
-//     console.log(data.image)
-//     console.log(image)
-// });
-
-// $("header").css({'background-image':'url('})
