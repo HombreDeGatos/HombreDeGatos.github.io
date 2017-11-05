@@ -17,3 +17,16 @@
     margin: 0;
     text-decoration: none;
 }
+
+.text-primary {
+    color: #7892b3;
+}
+
+a {
+    color: #a0c1e4;
+    text-decoration: none;
+}
+
+.subheading {
+    font-style: italic;
+}
