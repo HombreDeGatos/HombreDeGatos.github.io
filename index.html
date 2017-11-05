@@ -204,19 +204,16 @@
   }
 
   var folder = "assets/images/ink/";
-  var github_url = "https://github.com/jaredleekatzman/hombredegatos.github.io/tree/master/assets/images/ink"
+  var file_index = "assets/images/ink/index.html"
   $.ajax({
-      url : github_url,
+      url : file_index,
       success: function (data) {
-          $(data).find("table#files").find("a").attr("href", function (i, val) {
+          data.split('\n').forEach(function(val) {
               if( val.match(/\.(jpe?g|png|gif)$/) ) { 
-                  console.log(i);
-                  console.log(val);
                   $("#grid").append('<div class="grid-item"><img class="img-responsive" alt="" src="./' + folder + val + '">\
                     <a class="hover-box"></div>');
+              }}); 
 
-              } 
-          });
         /*
         * Shuffle jQuery array of elements - see Fisher-Yates algorithm
         */
