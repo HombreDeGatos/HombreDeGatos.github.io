@@ -204,12 +204,14 @@
   }
 
   var folder = "assets/images/ink/";
-
+  var github_url = "https://github.com/jaredleekatzman/hombredegatos.github.io/tree/master/assets/images/ink"
   $.ajax({
-      url : folder,
+      url : github_url,
       success: function (data) {
-          $(data).find("a").attr("href", function (i, val) {
+          $(data).find("table#files").find("a").attr("href", function (i, val) {
               if( val.match(/\.(jpe?g|png|gif)$/) ) { 
+                  console.log(i);
+                  console.log(val);
                   $("#grid").append('<div class="grid-item"><img class="img-responsive" alt="" src="./' + folder + val + '">\
                     <a class="hover-box"></div>');
 
