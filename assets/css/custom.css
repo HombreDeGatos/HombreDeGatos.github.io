@@ -30,3 +30,7 @@ a {
 .subheading {
     font-style: italic;
 }
+
+.artitem {
+  margin-bottom: 6rem;
+}

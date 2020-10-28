@@ -45,13 +45,15 @@
             <img class="img-responsive site-logo" alt="" src="./assets/images/jlk-logo.svg">
             Jared Lee Katzman
           </a>
-        <p>New York City based Artificial Intelligence Researcher and Software Engineer</p>
+        <p>New York City based Artificial Intelligence Researcher and Engineer</p>
       </div>
       <ul class="nav">
-        <li><a href="./index.html" title="">Home</a></li>
-        <li><a href="./about.html" title="">About</a></li>
-        <li><a href="assets/Resume_Jared_Katzman.pdf" title="">CV</a></li>
-        
+        <li><a href="./index.html" title="Home">Home</a></li>
+        <li><a href="./about.html" title="About">About</a></li>
+        <li><a href="./research.html" title="Research">Research</a></li>
+        <li><a href="./art.html" title="Art">Art</a></li>
+        <li><a href="assets/Resume_Jared_Katzman.pdf" title="CV">CV</a></li>
+
         <!-- <li><a href="./contact.html" title="">Contact</a></li> -->
       </ul>
 
@@ -141,13 +143,50 @@
         <div class="my-auto">
           <h2 class="mb-5">Experience</h2>
 
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                  <h3 class="mb-0">Microsoft Research</h3>
+              </div>
+                <div class="subheading mb-3">Research Assistant | Computational Social Science Group</div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">July 2020 - Present</span>
+                </div>
+          <p>Assist senior researchers with multiple projects, including
+            statistical methods for polling and election forecasting,
+            interactive data journalism to improve comprehension of politically-relevant data,
+            and survey design for measuring impact of news media.
+            Investigate a taxonomy for fairness and inclusiveness in image tagging and captioning AI services.
+            Member of Fairness, Accountability, Transparency, and Ethics (FATE) reading group.
+            Teaching Assistant for Microsoft Research Data Science Summer School, Summer 2021, an intensive, four-week hands-on introduction to data science for college students in the New York City area.
+          </p>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0">Out in Tech</h3>
+                <div class="subheading mb-3">Lead | Out in Tech U</div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">March 2018 - Present</span>
+                </div>
+                <p>Started Out in Tech U’s <a href="https://outintech.com/u/mentorship/">Digital Mentorship Program</a>, where LGBTQ+ students work on projects with
+                  professional mentors over the course of 8 week semesters.
+                  Managed 4 volunteer coordinators to design and facilitate all digital programming for participants across the United States.
+                  Grew the program from an initial 30 participants to over 400 members annually.
+                  Participated in the Spring 2018 cohort as a mentor;
+                  Worked with a mentee, with no previous experience in data analysis,
+                  on how to use Python, Jupyter Notebooks, Pandas, NumPy, and Plotly to visualize the impact
+                  of America’s Opioid Crises. </p>
+              </div>
+            </div>
+
+
 		  <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Amazon Web Services</h3>
 	        </div>
             <div class="subheading mb-3">Machine Learning Engineer II | AI Labs</div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">May 2019 - Current</span>
+              <span class="text-primary">May 2019 - July 2020</span>
             </div>
   <p>Founding engineer on team developing Machine Learning Bias and Explainability products and research across ML platform.
   Designed and implemented data explainability feature for SageMaker Autopilot within 1 month of joining team pre-launch.
@@ -166,25 +205,6 @@
 		Designed and facilitated workshops on machine learning and security.
 		</p>
     </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Out in Tech</h3>
-              <div class="subheading mb-3">Digital Mentorship Lead | Out in Tech U</div>
-              <div class="resume-date text-md-right">
-                <span class="text-primary">March 2018 - Current</span>
-              </div>
-              <p>Started Out in Tech U’s <a href="https://outintech.com/u/mentorship/">Digital Mentorship Program</a>, where LGBTQ+ students work on projects with
-                professional mentors over the course of 8 week semesters.
-                Managed 4 volunteer coordinators to design and facilitate all digital programming for participants across the United States.
-                Grew the program from an initial 30 participants to over 200 members annually.
-                Participated in the Spring 2018 cohort as a mentor;
-                Worked with a mentee, with no previous experience in data analysis,
-                on how to use Python, Jupyter Notebooks, Pandas, NumPy, and Plotly to visualize the impact
-                of America’s Opioid Crises. </p>
-            </div>
-          </div>
-
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
@@ -215,45 +235,59 @@ control’s effect time from 24 hours to sub minutes and reduced monthly costs b
 
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="research">
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="research">
         <div class="my-auto">
           <h2 class="mb-5">Research &amp; Publications</h2>
-	  <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Detect suspicious IP addresses with the Amazon SageMaker IP Insights algorithm</h3>
-              <div class="subheading mb-3"></div>
-              <p>IP Insights is an unsupervised learning algorithm for detecting anomalous behavior and usage patterns of IP addresses. IP Insights is natively integrated into the Amazon SageMaker platform. Therefore, all you need is to put your data in S3 and you can spin up fully distributed training cluster to train an IP Insights model and then deploy with one-click to an EC2 instance for real-time inference.
-	      </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Get started with detecting suspicious IP addresses with the Amazon SageMaker IP Insights algorithm <a href="https://aws.amazon.com/blogs/machine-learning/detect-suspicious-ip-addresses-with-the-amazon-sagemaker-ip-insights-algorithm/">here.</a></span>
-            </div>
-          </div>
-
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">DeepSurv: Personalized Treatment Recommender System Using A Cox Proportional Hazards Deep Neural Network</h3>
-              <div class="subheading mb-3"></div>
-              <p>Researched the application of deep neural networks to survival analysis and demonstrated a deep neural network’s ability to predict the risk of an event occurring (i.e. death of a patient). Demonstrated state-of-the-art performance in predicting a patient’s risk of death and providing them with a personalized treatment recommendation. Released an open-source Python <a href="https://github.com/jaredleekatzman/DeepSurv">package</a> with a Docker framework to increase the reproducibility of experiments.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Presented at the International Conference of Machine Learning Computational Biology Workshop 2016.
-                <a href="https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-018-0482-1">Published in the journal BMC Medical Research Methodology.</a></span>
-            </div>
-          </div>
+                  <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Shape the Vote</h3>
+                    <div class="subheading mb-3"></div>
+                    <p>Our goal is to provide alternative tools to discuss election forecasting whereby voters are instead reminded and empowered to play their part in democracy.
+      	             </p>
+                  </div>
+                  <div class="resume-date text-md-right">
+                    <span class="text-primary">
+                      Published an <a href="http://shapethevote.com/vote/overview-2020-10-26">interactive data visualization</a> in D3.js using multi-level regressions to allow voters to modify forecasted vote share to explore the possible outcomes of an election.
+                    </span>
+                  </div>
+                </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">#transneeds</h3>
-              <div class="subheading mb-3"></div>
-              <p>Ran a <a href="https://transneeds.us/">social-media listening campaign</a> to gather data on trans health issues.
-                Analyzed over 12,000 responses and presented findings as policy recommendations to the U.S. Federal Government.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Presented as part of White House LGBTQ Tech & Innovation Summit 2015.</span>
-            </div>
-          </div>
-      </section>
+    	           <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                  <h3 class="mb-0">Detect suspicious IP addresses with the Amazon SageMaker IP Insights algorithm</h3>
+                  <div class="subheading mb-3"></div>
+                  <p>IP Insights is an unsupervised learning algorithm for detecting anomalous behavior and usage patterns of IP addresses. IP Insights is natively integrated into the Amazon SageMaker platform. Therefore, all you need is to put your data in S3 and you can spin up fully distributed training cluster to train an IP Insights model and then deploy with one-click to an EC2 instance for real-time inference.
+    	      </p>
+                </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">Get started with detecting suspicious IP addresses with the Amazon SageMaker IP Insights algorithm <a href="https://aws.amazon.com/blogs/machine-learning/detect-suspicious-ip-addresses-with-the-amazon-sagemaker-ip-insights-algorithm/">here.</a></span>
+                </div>
+              </div>
+
+              <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                  <h3 class="mb-0">DeepSurv: Personalized Treatment Recommender System Using A Cox Proportional Hazards Deep Neural Network</h3>
+                  <div class="subheading mb-3"></div>
+                  <p>Researched the application of deep neural networks to survival analysis and demonstrated a deep neural network’s ability to predict the risk of an event occurring (i.e. death of a patient). Demonstrated state-of-the-art performance in predicting a patient’s risk of death and providing them with a personalized treatment recommendation. Released an open-source Python <a href="https://github.com/jaredleekatzman/DeepSurv">package</a> with a Docker framework to increase the reproducibility of experiments.</p>
+                </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">Presented at the International Conference of Machine Learning Computational Biology Workshop 2016.
+                    <a href="https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-018-0482-1">Published in the journal BMC Medical Research Methodology.</a></span>
+                </div>
+              </div>
+
+              <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                  <h3 class="mb-0">#transneeds</h3>
+                  <div class="subheading mb-3"></div>
+                  <p>Ran a <a href="https://transneeds.us/">social-media listening campaign</a> to gather data on trans health issues.
+                    Analyzed over 12,000 responses and presented findings as policy recommendations to the U.S. Federal Government.</p>
+                </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">Presented as part of White House LGBTQ Tech & Innovation Summit 2015.</span>
+                </div>
+              </div>
+      </section> -->
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
